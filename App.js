@@ -1,3 +1,5 @@
+import  React  from "react";
+import  ReactDOM  from "react-dom/client";
 let content = "Hello world Using React!";
 let element = React.createElement("h1", { className: "this object is used to give attributes to the elements" }, content);
 let root = ReactDOM.createRoot(document.querySelector('.root'));
@@ -37,6 +39,6 @@ let parent = React.createElement(
             )]
     )
     ]
-)
+); 
 
-root.render(parent)
+root.render(parent);
