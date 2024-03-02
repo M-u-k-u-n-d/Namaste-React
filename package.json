@@ -1,0 +1,16 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "This is Namaste react series.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/M-u-k-u-n-d/Namaste-React)"
+  },
+  "keywords": [],
+  "author": "Mukund Tiwari",
+  "license": "ISC"
+}
