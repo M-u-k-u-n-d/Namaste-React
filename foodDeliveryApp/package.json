@@ -1,0 +1,30 @@
+{
+  "name": "fooddeliveryapp",
+  "version": "1.0.0",
+  "description": "This is episode 4 from  Namaste React",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "\"jest\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M-u-k-u-n-d/Namaste-React.git"
+  },
+  "author": "Mukund Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-u-k-u-n-d/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/M-u-k-u-n-d/Namaste-React#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "main": "App.js"
+}
