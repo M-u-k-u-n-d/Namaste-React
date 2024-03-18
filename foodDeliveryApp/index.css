@@ -1,15 +1,15 @@
-*{
+/* *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 :root {
     --card-bg-color : rgba(255, 247, 247, 0.838);
 }
 .logo{
     height: 73px;
-    width: 103px;
+    width: 93px;
     border-radius: 50%;
     mix-blend-mode: color-burn;
 }
@@ -18,10 +18,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 40px 0 40px;
-    height: 12vh;
+    height: 15vh;
     position: sticky;
     top: 0;
     border: 2px solid #ccc ;
+    border-radius: 8px;
 }
 .nav-items{
     display: flex;
@@ -95,10 +96,6 @@ button:hover {
 
 button.top-rated{
     background-color: rgb(147, 139, 139);
-}
-
-.shimmer-container{
-
 }
 
 .shimmer-card{

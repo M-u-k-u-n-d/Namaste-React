@@ -41,7 +41,7 @@ it create's
  */
 
 
-There are two types of Export/Import
+- There are two types of Export/Import
 
 - (1) Default Export/Import
 
@@ -52,3 +52,8 @@ import Component from path;
 
 export const Component;
 import {Component} from path; 
+
+
+- two types of Routing
+- Client Side Routing 
+- Server Side Routing

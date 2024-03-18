@@ -1,7 +1,12 @@
+import User from "./User";
+import UserClass from "./UserClass";
+
 const About = ()=>{
     return (
     <div className="about-container">
-        <h1>This is Mukund Tiwari</h1>
+        <User name = {"Mukund Tiwari"} role = {"Frontend Developer"}/>
+        <hr/>
+        <UserClass name = {"Mukund Tiwari"} role = {"Frontend Developer and Competitive Programmer"}/>
     </div>
     )
 }
