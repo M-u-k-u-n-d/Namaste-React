@@ -11,7 +11,7 @@
     height: 73px;
     width: 93px;
     border-radius: 50%;
-    mix-blend-mode: color-burn;
+    /* mix-blend-mode: color-burn; */
 }
 .header{
     display: flex;
@@ -97,8 +97,51 @@ button:hover {
 button.top-rated{
     background-color: rgb(147, 139, 139);
 }
+button.top-rated:hover{
+    background-color: rgb(36, 30, 30);
+}
 
 .shimmer-card{
     background-color: #f0f0f0;
     height: 265px;
+}
+
+.ring{
+    position: relative;
+    top: 30vh;
+    left: 40vw;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(147, 139, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+.child-ring-1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.child-ring-2{
+    position: relative;
+    left: -20px;
+    top: -20px;
+    height: 50px;
+    width: 60px;
+    /* border-radius: 50%; */
+    background-color: rgb(255, 255, 255);
 }

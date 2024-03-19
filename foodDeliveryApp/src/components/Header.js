@@ -19,9 +19,11 @@ const Header = () => {
             <li><Link to="/about" style={{textDecoration:"none"}}>About Us</Link></li>
             <li><Link to="/contact" style={{textDecoration:"none"}}> Contact Us </Link></li>
             <li>Cart</li>
+            <li>
             <button onClick={()=>{
               (btnNameReact === "Login") ? setBtnNameReact("Logout") : setBtnNameReact("Login");
             }}>{btnNameReact}</button>
+            </li>
           </ul>
         </div>
       </div>
