@@ -4,16 +4,16 @@ const User = (props)=>{
     const [value] = useState(0);
     const [value2] = useState(-1);
 
-    useEffect(()=>{
-        const timer = setInterval(()=>{
-            console.log("user");
-        },1000);
+    // useEffect(()=>{
+        // const timer = setInterval(()=>{
+        //     console.log("user");
+        // },1000);
 
-        return ()=> {
-            clearInterval(timer);
-            console.log("useEffect Return")
-        }
-    },[]);
+        // return ()=> {
+        //     clearInterval(timer);
+        //     console.log("useEffect Return")
+        // }
+    // },[]);
 
     return (
         <div className="user-container">

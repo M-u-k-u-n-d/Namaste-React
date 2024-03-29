@@ -10,8 +10,8 @@ class About extends React.Component{
     render(){
         return (
             <div className="about-container">
-                <UserClass name = {"First"} role = {"Frontend Developer and Competitive Programmer"}/>
-                <User name = {"First"} role = {"Frontend Developer and Competitive Programmer"}/>
+                <UserClass name = {"Mukund"} role = {"Frontend Developer and Competitive Programmer"}/>
+                <User name = {"Mukund"} role = {"Frontend Developer and Competitive Programmer"}/>
             </div>
             );
     }
