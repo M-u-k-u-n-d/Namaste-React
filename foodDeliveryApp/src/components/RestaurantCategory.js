@@ -8,7 +8,6 @@ const RestaurantCategory = ({data , showItems, setShowIndex, closeAll}) => {
   else {
     closeAll();
   }
-
   };
 
   return (
