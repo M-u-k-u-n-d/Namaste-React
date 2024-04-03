@@ -26,14 +26,14 @@ it create's
  * Header
  * - logo
  * - nav Items
- *
+ 
  * Body
  * - Search
  * - Restaurant Container
  * - Restaurant Card
- *      -Img
- *      - Name of Res, Star Rating, Cuisines.
- *
+ * - Img
+ * - Name of Res, Star Rating, Cuisines.
+ 
  * Footer
  * - Copyright
  * - links
