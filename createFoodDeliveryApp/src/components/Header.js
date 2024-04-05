@@ -14,8 +14,6 @@ const Header = () => {
 
     const cartItems = useSelector((store) => store.cart.items);
 
-    console.log(cartItems)
-
     return (
       <div className="pl-12 pr-12 pt-4 pb-2 flex justify-between items-center border-2 rounded-sm sticky top-0 z-50 bg-cyan-50">
         <div className="logo-container">

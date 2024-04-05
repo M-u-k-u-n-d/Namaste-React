@@ -15,7 +15,7 @@ const ItemList = (props) => {
       {props?.items?.map((item) => {
         return (
           <div key={item?.card?.info?.id}>
-            <div className="p-6 flex justify-between">
+            <div className="p-6 flex justify-between w-full">
               <div className="w-9/12">
                 <div>
                   <p className="font-serif text-lg text-gray-900 font-semibold">

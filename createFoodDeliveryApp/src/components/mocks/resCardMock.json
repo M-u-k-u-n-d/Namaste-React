@@ -1,0 +1,71 @@
+{
+    "id": "407887",
+    "name": "The Belgian Waffle Co.",
+    "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
+    "locality": "Orbit Plaza",
+    "areaName": "crossing republic",
+    "costForTwo": "₹200 for two",
+    "cuisines": [
+        "Waffle",
+        "Desserts",
+        "Ice Cream"
+    ],
+    "avgRating": 4.4,
+    "veg": true,
+    "parentId": "2233",
+    "avgRatingString": "4.4",
+    "totalRatingsString": "1K+",
+    "sla": {
+        "deliveryTime": 47,
+        "lastMileTravel": 7.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "45-50 mins",
+        "lastMileTravelString": "7.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+        "nextCloseTime": "2024-04-06 03:00:00",
+        "opened": true
+    },
+    "badges": {
+        "imageBadges": [
+            {
+                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                "description": "pureveg"
+            }
+        ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+        "entityBadges": {
+            "imageBased": {
+                "badgeObject": [
+                    {
+                        "attributes": {
+                            "description": "pureveg",
+                            "imageId": "v1695133679/badges/Pure_Veg111.png"
+                        }
+                    }
+                ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+        }
+    },
+    "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+    },
+    "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+        }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+}

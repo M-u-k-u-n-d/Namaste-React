@@ -9,6 +9,12 @@ const Contact = () => {
                 <p className="text-gray-700 mb-2"><span className="font-bold">Email:</span> mukundtiwari251103@gmail.com</p>
                 <p className="text-gray-700 mb-2"><span className="font-bold">Phone:</span> +91-7217717263</p>
                 <p className="text-gray-700 mb-2"><span className="font-bold">Address:</span> Ballia, UttarPradesh, India</p>
+
+                {/* Text box for contacting */}
+                <textarea 
+                    className="w-full h-40 p-4 border rounded-md focus:outline-none focus:ring focus:border-blue-300 resize-none mt-4 placeholder-gray-400" 
+                    placeholder="Contact me here..."
+                ></textarea>
             </div>
         </div>
     );

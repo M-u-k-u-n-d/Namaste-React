@@ -11,7 +11,6 @@ const Body = () => {
   const [searchText, setSearchText] = useState("");
 
   const {loggedInUser , setUserName} = useContext(UserContext);
-  console.log(loggedInUser)
   const RestaurantCardLabel = topRatedLabel(RestaurantCard);
 
   useEffect(() => {
@@ -89,10 +88,10 @@ const Body = () => {
         {filteredListOfRestaurant?.map((val) => (
           <Link  key={val.info.id} to={"/restaurants/" + val.info.id} >
           {(val.info.avgRating >= 4.3) ? (
-            <RestaurantCardLabel valu={val}/>
+            <RestaurantCardLabel valu={val?.info}/>
           ) :
           (
-          <RestaurantCard valu={val} />
+          <RestaurantCard valu={val?.info} />
           )} </Link>
         ))}
       </div>

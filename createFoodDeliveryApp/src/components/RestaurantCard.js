@@ -1,8 +1,12 @@
 import { CDN_URL } from "../utils/constants";
+import MOCK_DATA from "./mocks/resCardMock.json";
 
 const RestaurantCard = (props) => {
-    const {cloudinaryImageId,name,cuisines,locality,avgRating} = props?.valu?.info;
-    const {slaString} = props?.valu?.info?.sla;
+    // const {valu} = props;
+    console.log(props.valu)
+    const {cloudinaryImageId,name,cuisines,locality,avgRating} = props?.valu;
+    // console.log(name)
+    const {slaString} = props?.valu?.sla;
     let { header, subHeader } = props?.valu?.info?.aggregatedDiscountInfoV3 ?? { header: undefined, subHeader: undefined };
     if (header == undefined)  header = "󠁝";
     if (subHeader == undefined)  subHeader = "";
