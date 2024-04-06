@@ -3,7 +3,7 @@ import MOCK_DATA from "./mocks/resCardMock.json";
 
 const RestaurantCard = (props) => {
     // const {valu} = props;
-    console.log(props.valu)
+    // console.log(props.valu)
     const {cloudinaryImageId,name,cuisines,locality,avgRating} = props?.valu;
     // console.log(name)
     const {slaString} = props?.valu?.sla;
@@ -11,7 +11,7 @@ const RestaurantCard = (props) => {
     if (header == undefined)  header = "󠁝";
     if (subHeader == undefined)  subHeader = "";
     return (
-      <div className="flex flex-col border items-center w-64 h-72 bg-sky-100 rounded-lg hover:border-2 hover:border-sky-400">
+      <div data-testid = "resCard" className="flex flex-col border items-center w-64 h-72 bg-sky-100 rounded-lg hover:border-2 hover:border-sky-400">
         <img className="w-60 h-40 object-cover pt-2 pb-4 box-border rounded-[22px] relative z-0" src={CDN_URL + cloudinaryImageId} alt="card-img"></img>
           <h2 className="flex justify-center items-center h-20 rounded-lg w-full font-extrabold  pb-4 relative bottom-12 text-xl z-10 text-white bg-gradient-to-b from-transparent to-black">{`${header}  ${subHeader}`}</h2>
         <div className="w-60 relative -top-8">

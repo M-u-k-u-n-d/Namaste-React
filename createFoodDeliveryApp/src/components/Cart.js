@@ -23,7 +23,7 @@ const Cart = () => {
         </button>
       </div>
       <div className="mt-20">
-        <ItemList items={cartItems} />
+        <ItemList items={cartItems} flag = {true}/>
         {cartItems.length === 0 ? <div className="font-mono text-white text-3xl bg-gray-900 p-2">Your Cart is Empty  </div> : null}
       </div>
     </div>

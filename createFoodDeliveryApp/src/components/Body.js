@@ -43,6 +43,7 @@ const Body = () => {
     <div className="w-[80vw] m-auto ">
       <div className="flex items-center justify-center mt-10 gap-6">
         <input className="border-2 border-black h-8 rounded-lg text-start pl-4"
+          data-testid = "searchInput"
           type="text"
           placeholder="Search. . ."
           value={searchText}

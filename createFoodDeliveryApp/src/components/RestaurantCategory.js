@@ -23,7 +23,7 @@ const RestaurantCategory = ({data , showItems, setShowIndex, closeAll}) => {
             </span>
             <span>{showItems ? "🔼" : "🔽"}</span>
           </div>
-          {showItems && <ItemList items={data?.itemCards} />}
+          {showItems && <ItemList items={data?.itemCards} flag = {false}/>}
         </div>
       </div>
     </div>
